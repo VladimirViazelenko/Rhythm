@@ -42,9 +42,19 @@
     .item-category__title {
         font-size: 35px;
     }
-    
     .categories__title {
         margin-bottom: 50px;
+    }
+    .brands {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .brands__title {
+        margin-bottom: 40px;
+    }
+    .brands__items {
+        grid-template-columns: repeat(3, auto);
+        justify-content: center;
     }
 }
 
@@ -88,6 +98,18 @@
     }
     .categories__title {
         margin-bottom: 20px;
+    }
+    .brands {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .brands__title {
+        margin-bottom: 25px;
+    }
+    .brands__items {
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+        row-gap: 20px;
     }
 }
 

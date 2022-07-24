@@ -41,6 +41,7 @@ li {
 
 .page__main {}
 .page__store {}
+.page__brands {}
 
 [class*="__container"]{
     max-width: 1230px;
@@ -304,4 +305,29 @@ li {
     height: 100%;
     top: 0;
     left: 0;
+}
+
+/* -------------------------- */
+
+.brands {
+    padding-top: 110px;
+    padding-bottom: 180px;
+}
+.brands__container {}
+.brands__title {
+    margin-bottom: 75px;
+}
+.brands__items {
+    max-width: 1020px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-between;
+    column-gap: 20px;
+    align-items: center;
+    row-gap: 80px;
+}
+.brands__item {}
+.brands__item img {
+    max-width: 100%;
 }
