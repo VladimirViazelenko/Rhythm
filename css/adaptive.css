@@ -16,6 +16,9 @@
     .main__decor {
         flex: 0 0 40%;
     }
+    .categories__items {
+        column-gap: 40px;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -31,6 +34,17 @@
     }
     .body-store__items {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .categories__items {
+        column-gap: 40px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .item-category__title {
+        font-size: 35px;
+    }
+    
+    .categories__title {
+        margin-bottom: 50px;
     }
 }
 
@@ -68,6 +82,13 @@
     .item__image:not(:last-child){
         margin-bottom: 20px;
     }
+    .categories {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .categories__title {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 479.98px) {
@@ -96,4 +117,10 @@
         margin-right: 0;
         margin-bottom: 10px;
     }
+    .categories__items {
+        column-gap: 30px;
+        row-gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
 }
