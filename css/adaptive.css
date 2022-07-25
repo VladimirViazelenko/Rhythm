@@ -19,6 +19,9 @@
     .categories__items {
         column-gap: 40px;
     }
+    .reviews__swiper {
+        margin-left: -15px;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -62,6 +65,29 @@
     }
     .advantages__items {
         grid-template-columns: repeat(2, auto);
+    }
+    .reviews {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .reviews__title {
+        margin-bottom: 50px;
+    }
+    .slide-swiper-reviews {
+        flex-direction: column;
+    }
+    .slide-swiper-reviews__body {
+        padding-left: 15px;
+    }
+    .slide-swiper-reviews__picture {
+        margin-bottom: 25px;
+    }
+    .swiper-reviews__pagination {
+        transform: translate(0px, 0px);
+        padding-top: 30px;
+        position: relative;
+        bottom: 0;
+        justify-content: center;
     }
 }
 
@@ -129,6 +155,13 @@
     .advantages__item {
         align-items: center;
     }
+    .reviews {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .reviews__title {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 479.98px) {
@@ -162,5 +195,17 @@
         row-gap: 20px;
         grid-template-columns: repeat(1, 1fr);
     }
-    
+    .slide-swiper-reviews__image {
+        width: 270px;
+        height: 270px;
+    }
+    .slide-swiper-reviews__image::before {
+        content: '';
+        width: 225px;
+        height: 187px;
+    }
+    .slide-swiper-reviews__text {
+        font-size: 18px;
+    }
+
 }
