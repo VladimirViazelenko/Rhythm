@@ -402,7 +402,7 @@ li {
     height: 100%;
     top: 0;
     left: 0;
-    object-fit: center;
+    object-fit: cover;
 }
 .slide-swiper-reviews__body {
     flex: 0 1 50%;
@@ -441,7 +441,7 @@ li {
     flex: 0 0 10px;
     height: 16px;
     opacity: 1;
-    transition: all 0.3 ease 0s;
+    transition: all 0.3s ease 0s;
 }
 .swiper-reviews__pagination .swiper-pagination-bullet-active {
     background: #ff6428;
