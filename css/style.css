@@ -448,3 +448,36 @@ li {
     flex: 0 0 12px;
 }
 /* -------------------------- */
+.favorite {
+    padding-bottom: 120px;
+}
+.favorite__container {
+    display: flex;
+    align-items: center;
+}
+.favorite__body {
+    padding-right: 20px;
+    flex: 0 1 50%;
+}
+.favorite__title {
+    text-align: left;
+    font-size: 48px;
+    line-height: 1.39;
+}
+.favorite__title:not(:last-child) {
+    margin-bottom: 60px;
+}
+.apps-favorite {
+    display: flex;
+    gap: 25px;
+}
+.apps-favorite__item img {
+    max-width: 100%;
+}
+.favorite__images {
+    flex: 0 1 50%;
+    text-align: center;
+}
+.favorite__images img {
+    max-width: 100%;
+}

@@ -89,6 +89,19 @@
         bottom: 0;
         justify-content: center;
     }
+    .favorite {
+        padding-top: 60px;
+        padding-bottom: 120px;
+    }
+    .favorite__container {
+        flex-direction: column;
+    }
+    .favorite__title{
+        font-size: 38px;
+    }
+    .favorite__title:not(:last-child){
+        margin-bottom: 25px;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -161,6 +174,10 @@
     }
     .reviews__title {
         margin-bottom: 30px;
+    }
+    .favorite {
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
 
